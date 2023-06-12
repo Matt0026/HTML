@@ -5,14 +5,11 @@
     font-size: 25px;
     color: rgba(0, 0, 0, 0.692);
     cursor: pointer;
-    
+    background-color: rgb(199, 199, 199);
+    border-radius: 7px;
     
 }
 
-.container:hover {
-    text-shadow: ;
-    color: rgba(0, 0, 0, 0.774);
-}
 
 .title {
     display: flex; 
@@ -21,14 +18,36 @@
     font-size: 25px;
     color: rgba(0, 0, 0, 0.692);
     padding-left: 20px;
-   
+    background: rgba(186, 186, 186, 0.692);
+    border-radius: 7px;
+    
 }
-.serach  {
+
+
+.logout:hover {
+    color:  rgba(46, 46, 46, 0.774);
+    text-shadow: 0px 0px 1.2px;
+}
+
+
+.logout {
+    padding-left: 10px;
+}
+
+
+.search:hover {
+    color:  rgba(46, 46, 46, 0.774);
+    text-shadow: 0px 0px 1.2px;
+ }
+
+
+.search {
     padding-left: 10px;
     
 }
-.logout {
-    padding-left: 10px;
+.home:hover {
+    color:  rgba(46, 46, 46, 0.774);
+    text-shadow: 0px 0px 1.2px;
 }
 
 
