@@ -1,16 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Inter, sans-serif;
 }
 
 .title {
-  display: flex;
+  
   padding: 20px;
   font-size: 24px;
   color: #1d1d21;
   border-bottom-width: 1px;
   border-color: rgba(0, 0, 0, 0.05);
-  border-left-width: 0px;
-  border-right-width: 0px;
   border-style: solid;
+  font-weight: 700;
 }
