@@ -1,0 +1,10 @@
+.container {  
+    display: flex;  
+    padding-left: 40%;
+}
+
+.title {
+    padding-left: 100px;
+   
+}
+
