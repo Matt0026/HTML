@@ -5,7 +5,6 @@
 }
 
 .title {
-  
   padding: 20px;
   font-size: 24px;
   color: #1d1d21;
@@ -13,4 +12,38 @@
   border-color: rgba(0, 0, 0, 0.05);
   border-style: solid;
   font-weight: 700;
+}
+
+.services {
+  font-weight: 400;
+  float: right;
+  display: flex;
+  background: none;
+  font-size: 18px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.work {
+  font-weight: 400;
+  float: right;
+  display: flex;
+  background: none;
+  font-size: 18px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.about {
+  font-weight: 400;
+  float: right;
+  display: flex;
+  background: none;
+  font-size: 18px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
