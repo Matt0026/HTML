@@ -19,6 +19,7 @@
   padding-right: 40px;
 }
 .services {
+  line-height: 1.2em;
   letter-spacing: 0px;
   font-weight: 400;
   float: right;
@@ -35,6 +36,7 @@
 }
 
 .work {
+  line-height: 1.2em;
   letter-spacing: 0px;
   font-weight: 400;
   float: right;
@@ -50,6 +52,7 @@
   color: #e76385;
 }
 .about {
+  line-height: 1.2em;
   letter-spacing: 0px;
   font-weight: 400;
   float: right;
@@ -66,6 +69,7 @@
   color: #e76385;
 }
 .contact {
+  line-height: 1.2em;
   letter-spacing: 0px;
   font-weight: 400;
   float: right;
@@ -115,26 +119,20 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
+  padding-left: 105px;
   padding-right: 40px;
-  padding-top: 120px;
+  padding-top: 173px;
   padding-bottom: 60px;
   max-width: 1280px;
   font-size: 70px;
-  /* background-color: antiquewhite; */
-  /* place-content: flex-start center; */
-  /* align-items: flex-start; */
-  /*
-  flex: 1 0 0px;
-  */
+  background-color: antiquewhite;
+  
 }
 
 .buttonBox {
   max-width: 110px;
   font-family: "DM Sans" sans-serif;
   font-size: 20px;
-
-  /* background-color: #cfcfcf; */
   cursor: pointer;
   padding: auto;
   letter-spacing: normal;
@@ -152,7 +150,6 @@
   margin-right: 75%;
   animation: fadeIn 1.5s;
   transition: 1s cubic-bezier(0.01, 0.9, 1, 1);
-
   filter: contrast(16.8);
 }
 
