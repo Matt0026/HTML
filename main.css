@@ -84,7 +84,7 @@
 /* Button */
 
 .buttonBox {
-  max-width: 190px;
+  max-width: 170px;
   max-height: 32px;
   display: flex;
   justify-content: space-between;
