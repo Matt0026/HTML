@@ -154,3 +154,6 @@
 .buttonBox:hover {
   border-style: dashed;
 }
+.space {
+  margin-bottom: 1000px;
+}
