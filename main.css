@@ -3,7 +3,7 @@
   padding: 0;
   font-family: Inter, sans-serif;
 }
-
+/* Title */
 .title {
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,8 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-.my-div {
+/* Navigation bar */
+.my-navDiv {
   display: flex;
   column-gap: 60px;
   align-items: center;
@@ -46,6 +47,7 @@
     opacity: 1;
   }
 }
+/* Page content */
 #titleBox {
   color: #1d1d21;
   letter-spacing: -3.5px;
@@ -65,7 +67,7 @@
   padding-top: 23px;
   animation: fadeIn 1.5s;
   transition: 1s cubic-bezier(0.01, 0.9, 1, 1);
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .box {
@@ -79,9 +81,18 @@
   max-width: 1280px;
   font-size: 70px;
 }
+/* Button */
 
 .buttonBox {
-  max-width: 110px;
+  max-width: 190px;
+  max-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(29, 29, 33);
+  line-height: 24px;
+  opacity: 85%;
   font-family: "DM Sans" sans-serif;
   font-size: 20px;
   cursor: pointer;
@@ -91,8 +102,8 @@
   border-style: solid;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-top-width: 2px;
   border-left-width: 2px;
   border-right-width: 2px;
@@ -103,7 +114,6 @@
   transition: 1s cubic-bezier(0.01, 0.9, 1, 1);
   filter: contrast(16.8);
 }
-
 .buttonBox:hover {
   border-style: dashed;
 }
